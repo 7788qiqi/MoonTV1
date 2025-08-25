@@ -1256,14 +1256,6 @@ function PlayPageClient() {
         fastForward: true,
         autoOrientation: true,
         lock: true,
-        plugins: [
-            artplayerPluginAmbilight({
-                blur: '50px', 
-                opacity: 1, 
-                frequency: 10, 
-                duration: 0.3,
-            }),
-        ],
         moreVideoAttr: {
           crossOrigin: 'anonymous',
         },
